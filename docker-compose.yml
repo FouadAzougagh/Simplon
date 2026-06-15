@@ -3,7 +3,7 @@ version: "3.9"
 services:
 
   db:
-    image: nouchka/sqlite3
+    image: keinos/sqlite3
     container_name: sqlite-db
     stdin_open: true
     tty: true
